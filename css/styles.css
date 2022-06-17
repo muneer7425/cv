@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('../fonts/HelveticaL/HelveticaLTStd-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaL/HelveticaLTStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 962px;
+    margin: 0 auto;
+}
+.fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    padding: 50px 0;
+} 
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav ul{ 
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul span{
+    padding: 0 15px;
+}
+.top{
+    text-align: center;
+    padding: 100px 0;
+}
+.top h1{
+    font-family: 'Helvetica LT Std';
+    font-size: 36px;
+}
+.top p{
+    padding: 50px 0 ;
+}
+.top a{
+    background-color: #222222;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.project{
+    text-align: center;
+    padding: 60px 0 100px 0;
+}
+.project h2{
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.project h3{
+    font-size: 18px;
+    padding: 20px 0;
+}
+.project_inner p i{
+    color:#666666;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+}
+.project aside{
+    width: 100%;
+    height: 200px;
+    background-color: #cccccc;
+}
+.project_inner{
+     float: left;
+     width: 30%;  
+     border: 1px solid #cccccc;
+     margin: 0 30px 0 0;             
+}
+.about{
+    background-color: #e5e5e5;
+}
+.about_part{
+    float: left;
+    width: 50%;
+}
+.whatsnew_part{
+    float: right;
+    width: 50%;
+}
+.block{
+    width: 150px; 
+    height: 100px;
+    background-color: #cccccc;
+    display: inline-block;
+    margin: right 30px;
+}
+.content{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    }
+.content p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.content span {
+    font-size: 13px;
+}   
+.content span a{
+    text-decoration:none;
+    color:#ca1f1f;
+} 
+main hr{
+    margin: 30px 0;
+}
+.about_part h4, .whatsnew_part h4{
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+.about {
+    
+    background-color: #e5e5e5;
+}
+.about_part p{
+    padding-bottom: 40px;
+}
+footer{
+    padding: 30px 0 234px 0;
+} 
